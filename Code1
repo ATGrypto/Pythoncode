@@ -1,20 +1,20 @@
 print("Title of program: CCA Matching Personality test")
 print()
 print("Welcome to DHS! Please answer the following questions truthfully and we'll suggest a CCA for you!")
-print("Please respond with an alphabet A - D, where E is strongly disagree and A is strongly agree.")
+print("Please respond with a number 1 - 5, where 1 is strongly disagree and 5 is strongly agree.")
 print()
 
 tech1 = input("I enjoy working with computers.")
 
-outdoor1 = input("I will go crazy if I do not go out of the house for the whole day.")
+outdoor1 = input("I'll go crazy if I do not go out of the house for the whole day.")
 
-music1 = input("I feel relaxed when I listen to music")
+music1 = input("I feel relaxed when I listen to music.")
 
 tech2 = input("I know how to build apps and websites.")
 
-outdoor2 = input("I enjoy playing basketball")
+outdoor2 = input("I'm enjoy playing basketball.")
 
-music2 = input("I have learnt to play a music instrument")
+music2 = input("I play a musical instrument well.")
 
 
 tech_final = int(tech1) + int(tech2)

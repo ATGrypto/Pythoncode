@@ -1,31 +1,31 @@
-print("Title of program: CCA Matching Personality test")
+print("Title of program: Sport Matching Personality test")
 print()
 print("Welcome to DHS! Please answer the following questions truthfully and we'll suggest a CCA for you!")
 print("Please respond with a number 1 - 5, where 1 is strongly disagree and 5 is strongly agree.")
 print()
 
-tech1 = input("I enjoy working with computers.")
+bball1 = input("I enjoy playing ball games")
 
 outdoor1 = input("I'll go crazy if I do not go out of the house for the whole day.")
 
-music1 = input("I feel relaxed when I listen to music.")
+soccer1 = input("I have good stamina.")
 
-tech2 = input("I know how to build apps and websites.")
+bball2 = input("I know the rules of basketball.")
 
-outdoor2 = input("I'm enjoy playing basketball.")
+outdoor2 = input("I'm enjoy going for a jog.")
 
-music2 = input("I play a musical instrument well.")
+soccer2 = input("I know the rules of soccer.")
 
 
-tech_final = int(tech1) + int(tech2)
+bball_final = int(bball1) + int(bball2)
 outdoor_final = int(outdoor1) + int(outdoor2)
-music_final = int(music1)+ int(music2)
+soccer_final = int(soccer1)+ int(soccer2)
 
 print()
 
-if tech_final > outdoor_final and tech_final > music_final:
-  print("You might be suitable for Infocomm club!")
-elif outdoor_final > music_final:
-  print("You might be stuiable for Basketball!")
+if bball_final > outdoor_final and bball_final > music_final:
+  print("You might be suitable for Basketball!")
+elif outdoor_final > soccer_final:
+  print("You might be stuiable for running!")
 else:
-  print("You might be suitable for Chinese Orchestra!")
+  print("You might be suitable for soccer!")
